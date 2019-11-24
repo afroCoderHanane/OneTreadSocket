@@ -2,7 +2,14 @@
 #include <WS2tcpip.h>
 #include <string>
 #include <sstream>
-
+//code works in visual studio on widows
+//need "Putty.msi" to experiment and connect using one thread to //connect multiple clients
+/*
+putty configuration 
+coonection type: raw
+ip address: 127.0.01
+port : 54000
+*/
 #pragma comment (lib, "ws2_32.lib")
 
 using namespace std;
